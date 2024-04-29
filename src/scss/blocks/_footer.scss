@@ -1,0 +1,132 @@
+.footer{
+	background-image: url("../../img/nav/header-background.jpg");
+	height: 623px;
+	background-repeat: no-repeat;
+	background-position: center;
+	@media(max-width:933px){
+
+		height: 638px;
+	}
+}
+
+.footer__communication{
+	font-family: var(--font-family);
+font-weight: 300;
+font-size: 21px;
+line-height: 138%;
+display: flex;
+gap: 40px;
+color: var(--white);
+text-decoration: none;
+}
+
+.footer h2{
+	font-family: var(--second-family);
+font-weight: 900;
+font-size: 48px;
+line-height: 145%;
+color: var(--white);
+}
+
+.footer__quetions {
+	font-family: var(--font-family);
+font-weight: 300;
+font-size: 18px;
+line-height: 138%;
+color: rgb(189, 186, 186);
+padding-top: 63px;
+max-width: 445px;
+padding-bottom: 80px;
+}
+
+.footer__communication li{
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.footer__content{
+	display: flex;
+	@media(max-width:933px){
+		flex-direction: column;
+	}
+}
+
+.form__name--holder{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+}
+
+.form__footer--name,
+.form__footer--lastname{
+	font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: white;
+line-height: 138%;
+display: block;
+color: var(--white);
+}
+
+.form__name--holder input::placeholder{
+	font-family: var(--font-family);
+font-weight: 300;
+font-size: 21px;
+line-height: 138%;
+color: #bdbdbd;
+padding-top: 15px;
+}
+.form__name--holder input{
+	padding-top: 21px;
+	color: white;
+	padding-bottom: 15px;
+	border-bottom: 1px solid var(--white);
+	width: 255px;
+	height: 0px;
+}
+.form__footer--name-holder{
+	padding-right: 30px;
+}
+
+.form__footer--message-holder label{
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 138%;
+	color: var(--white);
+	display: block;
+	margin-bottom: 25px;
+}
+
+.form__footer--message-holder input::placeholder{
+	font-family: var(--font-family);
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 138%;
+
+	color: #bdbdbd;
+
+}
+.form__footer--message-holder{
+	margin-bottom: 50px;
+}
+.form__footer--message-holder input{
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--white);
+width: 540px;
+
+color: white;
+}
+
+.footer__form--send-message{
+	font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 138%;
+text-align: center;
+color: var(--white);
+padding: 19px 18px;
+background: var(--accent) !important;
+display: block !important;
+margin-left: 325px;
+}

@@ -1,0 +1,22 @@
+.our__services{
+    background: #EBEBEB;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.specializations {
+
+    padding-top: 102px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+flex-wrap: wrap;
+justify-content: space-between;
+@media(max-width:1222px){
+    grid-template-columns: repeat(2, 1fr);
+ 
+}
+@media(max-width:800px){
+    grid-template-columns: repeat(1, 1fr);
+ 
+}
+}

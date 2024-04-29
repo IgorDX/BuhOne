@@ -1,0 +1,30 @@
+
+.specialization__card {
+    height: 360px;
+    max-width: 100%;
+
+    background-image:url("../../img/specialization/specialization-card.jpg");
+    background-size: cover;
+    background-position: center;
+
+&:hover{
+    background-image: linear-gradient(rgba(0, 95, 163, 0.35), rgba(0, 95, 163, 0.65)), url("../../img/specialization/specialization-card.jpg");
+}
+}
+
+
+.specialization__title{
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 24px;
+line-height: 126%;
+color: var(--white);
+padding: 261px 118px 45px 45px;
+@media(max-width: 400px){
+    padding: 261px 0px 45px 25px;
+}
+}
+
+.specialization__image{
+    max-width: 100%;
+}

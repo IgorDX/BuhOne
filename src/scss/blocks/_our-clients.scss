@@ -1,0 +1,31 @@
+.our__clients{
+    background: #ebebeb;
+    margin-bottom: 140px;
+}
+
+.our__clients-companies{
+    padding-top: 100px;
+}
+.our__clients span{
+
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 24px;
+line-height: 138%;
+color: #bdbdbd;
+}
+.companies{
+    overflow: hidden;
+    padding-bottom: 200px;
+    display: flex;
+    gap: 30px;
+}
+
+.our__clients h2{
+    font-family: var(--second-family);
+font-weight: 900;
+font-size: 48px;
+line-height: 145%;
+color: #333;
+margin-bottom: 80px;
+}
