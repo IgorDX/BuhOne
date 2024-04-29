@@ -30,7 +30,9 @@
     bottom: 100px !important;
     width: unset !important;
 }
-
+.swiper-slide{
+    user-select: none;
+}
 .swiper-button-prev{
     width: 60px !important;
 height: 60px !important;

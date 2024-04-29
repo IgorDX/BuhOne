@@ -33,7 +33,7 @@
 	height: var(--line-height);
 	background-color: var(--color);
 	border-radius: var(--radius);
-	@media(max-width:955px){
+	@media(max-width:1024px){
 		display: initial;
 	}
 }

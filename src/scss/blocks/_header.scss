@@ -20,7 +20,7 @@ padding-top: 33px;
 	}
 }
 .nav__content{
-	@media(max-width: 955px){
+	@media(max-width: 1024px){
 		display: none;
 	}
 }
@@ -37,6 +37,9 @@ color: var(--accent);
 	display: flex;
 	align-items: center;
 	gap: 30px;
+	@media(max-width: 440px){
+		gap: 10px;
+	}
 }
 .top__content{
 	justify-content: space-between;
